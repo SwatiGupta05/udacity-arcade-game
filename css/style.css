@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+
+html {
+     box-sizing: border-box;
+}
+
+
+body {
+    text-align: center;
+    background-color: #7ed6df;
+}
+
+
+h1 {
+  font-family: 'Coda', cursive;
+  font-size: 38px;
+  font-weight: 500;
+}
+
+
+/*game_score_board container have cores and lives*/
+.game_score_board {
+ font-size: 20px;
+  font-family: sans-serif;
+  color:#f7f1e3;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+
+.life  {
+    padding: 0;
+    border: 5px;
+    display: inline-block;
+    margin-right: 50px;
+    margin: 0 25px 0 0;
+}
